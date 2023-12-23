@@ -1,15 +1,18 @@
-import React from 'react';
+
 import Image from 'next/image'
 import './footer.css'
+import SocialNetworks from '../SocialNetwork/SocialNetworks'
+import logoCadena from '../../assets/img/logos/logo-cadena.png'
 
 export default function Footer() {
     return (
         <footer>
-            <img />
-            <h1>esto es una prueba para que se vea</h1>
-            <div className='social-networks-container'></div>
+            <Image
+            src={logoCadena}
+            alt='Foto del simbolo del footer'
+            width={35}
+            height={34}/>
+            <SocialNetworks />
         </footer>
     )
 }
-
-export { Footer }

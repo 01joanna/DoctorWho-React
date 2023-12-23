@@ -15,7 +15,7 @@ export default function RootLayoutt({ children }) {
   return (
     <html lang='en'>
       <head>
-        <title>Dr. Who</title>
+        <title>Doctor Who Official Webpage</title>
       </head>
 
     <body className={montserrat.className}>

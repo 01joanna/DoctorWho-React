@@ -8,7 +8,7 @@ import tiktokIcon from '../../assets/img/icons/ic_baseline-tiktok.svg'
 export default function SocialNetworks() {
     return (
         <div className='social__networks-container'>
-            <a href="">
+            <a href="https://www.facebook.com/" target="_blank">
                 <Image
                 src={facebookIcon}
                 alt="Facebook icon"
@@ -16,7 +16,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.twitter.com/" target="_blank">
                 <Image
                 src={xIcon}
                 alt="X icon"
@@ -24,7 +24,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/" target="_blank">
                 <Image
                 src={instagramIcon}
                 alt="Instagram icon"
@@ -32,7 +32,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.tiktok.com/" target="_blank">
                 <Image
                 src={tiktokIcon}
                 alt="Tiktok icon"
