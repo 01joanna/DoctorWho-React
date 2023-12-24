@@ -1,14 +1,13 @@
-import Image from 'next/image'
-import styles from './page.css'
-import footer from './components/Footer/Footer'
 
-export default function Home() {
+import React from 'react';
+
+const HomePage = () => {
   return (
     <div>
-      <main>
-        <h1>este es la parte de page.js</h1>
-      </main>
-
+      <h1>¡Bienvenido a mi aplicación!</h1>
+      {/* Otro contenido de la página */}
     </div>
-  )
-}
+  );
+};
+
+export default HomePage;

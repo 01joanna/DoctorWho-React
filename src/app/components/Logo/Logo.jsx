@@ -1,6 +1,6 @@
 
 import Link from 'next/link';
-import LogoImage from '../../assets/img/logos/logo.png'
+import LogoImage from '../../../../public/assets/img/logos/logo.png'
 import Image  from 'next/image';
 import './logo.css'
 
