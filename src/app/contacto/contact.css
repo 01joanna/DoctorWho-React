@@ -1,0 +1,31 @@
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.6rem;
+    /* height: 35rem; */
+}
+
+input, textarea {
+    background-color: black;
+    color: white;
+    padding: 0.5rem 0rem 0.5rem 1.5rem;
+    border: 1.9px solid white;
+    width: 15rem;
+
+}
+
+input::placeholder, textarea::placeholder {
+    color: white; 
+}
+
+textarea {
+    height: 8rem;
+}
+.submit__button {
+    background-color: #FFC67E;
+    padding: 0.3rem 3rem;
+    border-radius: 40px;
+    margin-top: 1rem;
+}
