@@ -1,10 +1,14 @@
 import Image from 'next/image'
-import styles from './page.module.css'
+import styles from './page.css'
+import footer from './components/Footer/Footer'
 
 export default function Home() {
   return (
-    <main className={styles.main}>
-      
-    </main>
+    <div>
+      <main>
+        <h1>este es la parte de page.js</h1>
+      </main>
+
+    </div>
   )
 }
