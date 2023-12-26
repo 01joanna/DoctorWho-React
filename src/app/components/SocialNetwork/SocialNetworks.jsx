@@ -1,14 +1,14 @@
 import Image from "next/image"
 import "./socialnetworks.css"
-import facebookIcon from '../../assets/img/icons/facebook.svg'
-import xIcon from '../../assets/img/icons/simple-icons_x.svg'
-import instagramIcon from '../../assets/img/icons/mdi_instagram.svg'
-import tiktokIcon from '../../assets/img/icons/ic_baseline-tiktok.svg'
+import facebookIcon from '../../../../public/assets/img/icons/facebook.svg'
+import xIcon from '../../../../public/assets/img/icons/simple-icons_x.svg'
+import instagramIcon from '../../../../public/assets/img/icons/mdi_instagram.svg'
+import tiktokIcon from '../../../../public/assets/img/icons/ic_baseline-tiktok.svg'
 
 export default function SocialNetworks() {
     return (
         <div className='social__networks-container'>
-            <a href="">
+            <a href="https://www.facebook.com/" target="_blank">
                 <Image
                 src={facebookIcon}
                 alt="Facebook icon"
@@ -16,7 +16,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.twitter.com/" target="_blank">
                 <Image
                 src={xIcon}
                 alt="X icon"
@@ -24,7 +24,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.instagram.com/" target="_blank">
                 <Image
                 src={instagramIcon}
                 alt="Instagram icon"
@@ -32,7 +32,7 @@ export default function SocialNetworks() {
                 height={24}
                 />
             </a>
-            <a href="">
+            <a href="https://www.tiktok.com/" target="_blank">
                 <Image
                 src={tiktokIcon}
                 alt="Tiktok icon"

@@ -2,7 +2,7 @@
 import Image from 'next/image'
 import './footer.css'
 import SocialNetworks from '../SocialNetwork/SocialNetworks'
-import logoCadena from '../../assets/img/logos/logo-cadena.png'
+import logoCadena from '../../../../public/assets/img/logos/logo-cadena.png'
 
 export default function Footer() {
     return (

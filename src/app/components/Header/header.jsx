@@ -2,6 +2,7 @@ import './header.css'
 import Link from 'next/link'
 import Logo from '../Logo/Logo'
 import SocialNetworks from '../SocialNetwork/SocialNetworks'
+import SearchBar from '../SearchBar/SearchBar'
 
 const links = [{
     label: 'Conoce a',
@@ -29,6 +30,7 @@ export default function Header() {
                 </ul>
             </nav>
             <Logo />
+            <SearchBar />
             <SocialNetworks />
         </header>
     )
