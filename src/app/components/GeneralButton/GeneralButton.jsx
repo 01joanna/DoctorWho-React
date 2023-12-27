@@ -1,9 +1,14 @@
 import './button.css'
 
-export default function GeneralButton() {
+const ButtonComponent = ({ to, text }) => {
+
     return (
-        <a href='https://www.figma.com/file/rdW0yacdnv7kOhS1CmD9xf/Proyecto-Doctor-Who?     type=design&node-id=0-1&mode=design&t=pPzzEWuw82V68ji5-0' target='_blank' className='submit__button'>
-            Send
-        </a>
-    )
-}
+        <div>
+            <a href={to} target="_blank" className="btn__component">
+                {text}
+            </a>
+        </div>
+    );
+};
+
+export default ButtonComponent;
