@@ -1,7 +1,17 @@
 .searchbar__placeholder {
     background-color: #040521;
-    /* font-size: ; */
-    
+    all: unset; 
+    border: none;
+    border-bottom: 1px solid #ccc;
+    outline: none;
+}
+
+.searchbar__placeholder::placeholder {
+    color: white;
+}
+
+input:focus {
+    border-color: white;
 }
 
 .searchbar__container {
