@@ -1,6 +1,7 @@
-.submit__button {
+.btn__component {
     background-color: #FFC67E;
     padding: 0.3rem 3rem;
     border-radius: 40px;
     margin-top: 1rem;
+    color: black;
 }

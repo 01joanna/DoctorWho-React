@@ -4,5 +4,6 @@
 }
 
 .logo__img img{
-   margin-top: 3rem;
+    margin-top: 3rem;
+    /* position: fixed; */
 }
