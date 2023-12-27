@@ -1,3 +1,16 @@
-input::placeholder {
+.searchbar__placeholder {
     background-color: #040521;
+    /* font-size: ; */
+    
+}
+
+.searchbar__container {
+    width: 5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.searchbar__icon {
+    margin-right: 2rem;
 }

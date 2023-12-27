@@ -12,11 +12,13 @@ export default function SearchBar() {
             alt="Icono de buscador"
             width={24}
             height={24}
+            className='searchbar__icon'
             />
 
             <input 
             type="text"
             placeholder="Buscar"
+            className='searchbar__placeholder'
             // value={searchTerm}
             // onChange={(e) => setSearchTerm(e.target.value)}
             />
