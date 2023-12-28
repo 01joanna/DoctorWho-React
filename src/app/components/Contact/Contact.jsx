@@ -4,7 +4,7 @@ import { lato } from '../../fonts'
 
 export default function Contact() {
     return (
-        <section className='contact__section'>
+        <section className={`${lato.className} ${'contact__section'}`}>
             <form className={lato.className}>
                 <div className='name__container'>
                     <label htmlFor="name"></label>
@@ -34,7 +34,10 @@ export default function Contact() {
                     />
                 </div>
             </form>
-            <ButtonComponent to="https://nextjs.org/docs/pages/api-reference/components/link" text="Send" className='submit__btn'/>
+            <ButtonComponent 
+            to="https://nextjs.org/docs/pages/api-reference/components/link" 
+            text="Send" 
+            className={`${'submit__btn'}`}/>
         </section>
     )
 };

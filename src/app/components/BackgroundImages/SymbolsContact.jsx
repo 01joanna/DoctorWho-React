@@ -11,8 +11,8 @@ export default function SymbolsContact() {
             <Image 
             src={symbol1}
             alt='Simbolo de persistencia num. 2'
-            width={279}
-            height={279}
+            width={250}
+            height={250}
             className='persistencia2__symbol-contact'
             />
             <Image 
@@ -25,8 +25,8 @@ export default function SymbolsContact() {
             <Image 
             src={symbol3}
             alt='Simbolo de vencer'
-            width={366}
-            height={366}
+            width={270}
+            height={270}
             className='vencer__symbol-contact'
             />
         </div>
