@@ -1,13 +1,9 @@
-
-import React from 'react';
-
-const HomePage = () => {
+import styles from './page.module.css'
+import Carrousel from '../app/components/Carrousel/Carrousel'
+export default function Home() {
   return (
-    <div>
-      <h1>¡Bienvenido a mi aplicación!</h1>
-      {/* Otro contenido de la página */}
-    </div>
-  );
-};
-
-export default HomePage;
+    <main>
+      <Carrousel />
+    </main>
+  )
+}

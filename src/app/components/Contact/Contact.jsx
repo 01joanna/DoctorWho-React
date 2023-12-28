@@ -1,10 +1,11 @@
 import './contact.css';
-import { lato } from '../fonts'
+import ButtonComponent from '../GeneralButton/GeneralButton';
+import { lato } from '../../fonts'
 
 export default function Contact() {
     return (
         <section className='contact__section'>
-            <form>
+            <form className={lato.className}>
                 <div className='name__container'>
                     <label htmlFor="name"></label>
                     <input 
@@ -33,7 +34,7 @@ export default function Contact() {
                     />
                 </div>
             </form>
-            <button className='submit__button'>Send</button>
+            <ButtonComponent to="https://nextjs.org/docs/pages/api-reference/components/link" text="Send" className='submit__btn'/>
         </section>
     )
 };

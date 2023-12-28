@@ -1,4 +1,4 @@
-import DoctorsCard from './DoctorsCard';
+import DoctorsCard from '../components/DoctorsCard/DoctorsCard';
 import './doctors.css'
 import { lato, montserrat } from '../fonts'
 

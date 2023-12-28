@@ -1,4 +1,4 @@
-import { Lato, Montserrat } from 'next/font/google'
+import { Lato, Montserrat } from '@next/font/google'
 
 export const lato = Lato({ 
     weight: '700',

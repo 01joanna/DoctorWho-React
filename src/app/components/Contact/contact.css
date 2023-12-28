@@ -5,16 +5,11 @@
     padding-top: 2rem;
 }
 
-h1 {
-    width: 25rem;
-    font-size: 32px;
-    text-align: center;
-}
-
 form {
     display: flex;
     flex-direction: column;
-    gap: 1.6rem;
+    gap: 2.5rem;
+    font-family: inherit;
     /* height: 35rem; */
 }
 
@@ -29,14 +24,13 @@ input, textarea {
 
 input::placeholder, textarea::placeholder {
     color: white; 
+    font: initial;
 }
 
 textarea {
     height: 8rem;
 }
-.submit__button {
-    background-color: #FFC67E;
-    padding: 0.3rem 3rem;
-    border-radius: 40px;
-    margin-top: 1rem;
+
+.submit__btn a{
+    margin: 30rem;
 }
