@@ -30,7 +30,9 @@ export default function Header() {
                 </ul>
             </nav>
             <Logo />
-            <SearchBar />
+            <SearchBar 
+            // onChange={(e) => console.log(e.target.value)}
+            />
             <SocialNetworks />
         </header>
     )

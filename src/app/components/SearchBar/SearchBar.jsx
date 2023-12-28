@@ -1,8 +1,8 @@
-
+// 'use client'
 import SearchIcon from '../../../../public/assets/img/icons/material-symbols-light_search.svg'
-// import { useState } from "react";
 import Image from "next/image";
 import './searchbar.css'
+// import doctorsData from '../../../../public/assets/doctors.json'
 
 export default function SearchBar() {
     return (
@@ -12,13 +12,13 @@ export default function SearchBar() {
             alt="Icono de buscador"
             width={24}
             height={24}
+            className='searchbar__icon'
             />
 
             <input 
             type="text"
             placeholder="Buscar"
-            // value={searchTerm}
-            // onChange={(e) => setSearchTerm(e.target.value)}
+            className='searchbar__placeholder'
             />
         </div>
 
