@@ -3,7 +3,6 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    border: 1px solid pink;
     height: 10rem;
     padding: 0 4.4rem;
 }
