@@ -1,9 +1,9 @@
 import Image from "next/image"
 import "./socialnetworks.css"
-import facebookIcon from '../../assets/img/icons/facebook.svg'
-import xIcon from '../../assets/img/icons/simple-icons_x.svg'
-import instagramIcon from '../../assets/img/icons/mdi_instagram.svg'
-import tiktokIcon from '../../assets/img/icons/ic_baseline-tiktok.svg'
+import facebookIcon from '../../../../public/assets/img/icons/facebook.svg'
+import xIcon from '../../../../public/assets/img/icons/simple-icons_x.svg'
+import instagramIcon from '../../../../public/assets/img/icons/mdi_instagram.svg'
+import tiktokIcon from '../../../../public/assets/img/icons/ic_baseline-tiktok.svg'
 
 export default function SocialNetworks() {
     return (
