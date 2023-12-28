@@ -24,6 +24,7 @@ input, textarea {
 
 input::placeholder, textarea::placeholder {
     color: white; 
+    border: none;
 }
 
 textarea {
