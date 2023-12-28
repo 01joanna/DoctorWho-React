@@ -10,16 +10,16 @@ export default function SymbolsDoctors() {
             <Image
             src={symbolsmall}
             alt='Simbología de persistencia'
-            width={200}
-            height={200}
+            width={375}
+            height={375}
             className='persistencia__symbol-doctor'
             objectPosition='center'
             />
             <Image
             src={symbolbig}
             alt='Simbología de resistencia'
-            width={200}
-            height={200}
+            width={640}
+            height={640}
             className='resistencia__symbol-doctor'
             />
         </div>
