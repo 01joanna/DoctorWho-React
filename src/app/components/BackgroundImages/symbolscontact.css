@@ -1,3 +1,24 @@
 .symbols__container {
-    padding: -140px;
+    position: fixed;
+    z-index: -1;
+    width: 100%;
+    height: 100%;
+}
+
+.persistencia2__symbol-contact {
+    position: absolute;
+    bottom: 75%;
+    left: 2%;
+}
+
+.resistencia__symbol-contact {
+    position: absolute;
+    bottom: 50%;
+    right: 51%;
+}
+
+.vencer__symbol-contact {
+    position: absolute;
+    bottom: 45%;
+    left: 3%;
 }

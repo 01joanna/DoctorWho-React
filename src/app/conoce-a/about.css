@@ -14,7 +14,7 @@ body {
     align-items: center;
     text-align: center;
     gap: 3rem;
-    /* width: 40rem; */
+    width: 40rem;
 }
 
 h1 {
@@ -36,20 +36,8 @@ h1 {
     font-weight: 700;
 }
 .about__image {
-    width: 400px;
+    width: 370px;
     height: 570px;
     position: relative;
     padding-bottom: 2.5rem;
-}
-
-.about__image::before {
-    display: block;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: rgba(0, 0, 0, 0.5);
-    width: 50%;
-    height: 50%;
-    z-index: 1;
 }

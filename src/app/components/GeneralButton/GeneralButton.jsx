@@ -1,3 +1,4 @@
+import { montserrat } from '@/app/fonts';
 import './button.css'
 
 const ButtonComponent = ({ to, text, className = '', style = {} }) => {
