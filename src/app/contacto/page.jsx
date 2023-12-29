@@ -17,5 +17,3 @@ export default function ContactPage() {
         </main>
     );
 };
-
-            {/* <section id="contact" className={`${lato} contacts__title-wrapper`}><h1>Envia tu mensaje al Doctor</h1></section> */}

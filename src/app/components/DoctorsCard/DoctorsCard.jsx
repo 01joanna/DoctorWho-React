@@ -1,5 +1,6 @@
 import DoctorsData from '../../../../public/assets/doctors.json'
 import Image from 'next/image'
+import ButtonComponent from '../GeneralButton/GeneralButton';
 
 const DoctorsCard = () => {
     return (
@@ -20,6 +21,7 @@ const DoctorsCard = () => {
                         <p>{doctor.actor}</p>
                         <p>{doctor.screen_time}</p>
                     </div>
+                    <ButtonComponent to={'www.doctorwho.com/tv'} text={'Ver más'} className={`${'doctors__btn'}`} />
                 </div>
         ))}
         </ul>
