@@ -12,7 +12,7 @@ export default function AboutPage() {
         <main className="about__container">
             <SymbolsDoctors />
             <section className="about__text-container">
-                <h1 className={lato.className}>Conoce a ... decimotercera doctor</h1>
+                <h1 className={`${lato.className} ${'about__title'}`}>Conoce a ... decimotercera doctor</h1>
                 <p className={`${montserrat.className} ${"about__text"}`} >Lorem ipsum dolor sit amet consectetur. Convallis maecenas ac pharetra metus justo amet nunc amet. Hac pellentesque proin sapien duis natoque. Risus enim duis quis egestas non. Morbi ut potenti egestas id pharetra gravida interdum nam.</p>
                 <ButtonComponent 
                 text={'Ver más'} 
