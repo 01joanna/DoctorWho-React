@@ -12,8 +12,8 @@ export default function Logo() {
                 <Image 
                 src={LogoImage} 
                 alt='Dr. Who Home' 
-                width={170} 
-                height={170}
+                width={145} 
+                height={145}
                 priority={true}/>
             </Link>
         </div>
