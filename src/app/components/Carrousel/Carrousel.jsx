@@ -56,7 +56,7 @@ const Carrousel = () => {
                     document.querySelector('.carrousel__img').classList.remove('fade-out');
                 }, 100);
             }, 500);
-        }, 8000);
+        }, 6000);
 
         return () => clearInterval(intervalId);
         }, [currentImageIndex]); 
