@@ -10,11 +10,11 @@
 .navigation {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: 3rem;
     font-size: 1.2rem;
 }
 
-.navigation a:hover{
+.header__nav a:hover{
     color: #f0f0f0f0;
     text-decoration: underline;
 }
