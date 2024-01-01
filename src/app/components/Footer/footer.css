@@ -4,6 +4,9 @@ footer {
     justify-content: space-between;
     align-items: center;
     border-top: 1px solid white;
-    height: 5rem;
+    height: 3.8rem;
     padding: 0 4.4rem;
+    background-color: #040521;
+    position: relative;
+    z-index: 1;
 }

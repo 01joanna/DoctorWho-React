@@ -1,7 +1,11 @@
+body {
+    padding-top: 2rem;
+}
 .about__container {
     display: flex;
-    justify-content: space-evenly;
-    gap: 4rem;
+    justify-content: space-around;
+    position: relative;
+    z-index: 1; 
 }
 
 .about__text-container {
@@ -11,23 +15,29 @@
     text-align: center;
     gap: 3rem;
     width: 40rem;
-
 }
 
-h1 {
-    font-size: 2.5rem;
-    /* width: rem; */
+.about__title {
+    font-size: 3.5rem;
+    width: 47rem;
     text-align: center;
 }
 
 .about__text {
-    font-size: 1.3rem;
-    width: 30rem;
-
-
+    font-size: 1.5rem;
+    width: 33rem;
+    font-weight: 400;
+    margin-bottom: 2rem;
 }
-button {
-    background-color: #FFC67E;
-    padding: 0.7rem 6rem;
-    border-radius: 8rem;
+
+.vermas__btn {
+    padding: 1rem 8rem;
+    font-size: 1.4rem;
+    font-weight: 700;
+}
+.about__image {
+    width: 370px;
+    height: 570px;
+    position: relative;
+    padding-bottom: 2.5rem;
 }

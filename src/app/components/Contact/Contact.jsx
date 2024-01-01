@@ -1,11 +1,11 @@
 import './contact.css';
-import GeneralButton from '../GeneralButton/GeneralButton'
+import ButtonComponent from '../GeneralButton/GeneralButton';
 import { lato } from '../../fonts'
 
 export default function Contact() {
     return (
-        <section className='contact__section'>
-            <form>
+        <section className={`${lato.className} ${'contact__section'}`}>
+            <form className={lato.className}>
                 <div className='name__container'>
                     <label htmlFor="name"></label>
                     <input 
@@ -13,6 +13,7 @@ export default function Contact() {
                     id="name" 
                     name="name"
                     placeholder="Nombre *"
+                    className={lato.className}
                     />
                 </div>
                 <div className='email__container'>
@@ -22,6 +23,7 @@ export default function Contact() {
                     id="email" 
                     name="email"
                     placeholder="Email *"
+                    className={lato.className}
                     />
                 </div>
                 <div className='message__container'>
@@ -31,9 +33,14 @@ export default function Contact() {
                     id="message" 
                     name="message"
                     placeholder="Mensaje *"
+                    className={lato.className}
                     />
                 </div>
             </form>
+            <ButtonComponent 
+            to="" 
+            text="Send" 
+            className={`${'submit__btn'}`}/>
         </section>
     )
 };

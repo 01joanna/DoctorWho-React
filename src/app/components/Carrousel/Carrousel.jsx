@@ -1,7 +1,8 @@
 'use client'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import './carrousel.css'
 import ButtonComponent from '../GeneralButton/GeneralButton'
+import { lato, montserrat } from '../../fonts'
 
 const image1 = '/assets/img/carrusel/carrusel-2.jpg';
 const image2 = '/assets/img/carrusel/carrusel-1.webp';
@@ -20,16 +21,16 @@ const imagesCarousel = [{
 
 },{
     id: 2,
-    title: 'The Giggle',
+    title: 'The Star Beast',
     imgUrl: image3,
 },{
     id: 3,
-    title: 'Allons-y!',
+    title: 'New Doctor!',
     imgUrl: image4,
 
 },{
     id: 4,
-    title: 'The Giggle',
+    title: 'Explore!',
     imgUrl: image5,
 }]
 
@@ -37,24 +38,43 @@ const Carrousel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
     const nextImage = () => {
-    const newIndex = (currentImageIndex + 1) % imagesCarousel.length;
-    setCurrentImageIndex(newIndex);
+        const newIndex = (currentImageIndex + 1) % imagesCarousel.length;
+        setCurrentImageIndex(newIndex);
     };
 
     const prevImage = () => {
-    const newIndex = (currentImageIndex - 1 + imagesCarousel.length) % imagesCarousel.length;
-    setCurrentImageIndex(newIndex);
+        const newIndex = (currentImageIndex - 1 + imagesCarousel.length) % imagesCarousel.length;
+        setCurrentImageIndex(newIndex);
     };
 
+    useEffect(() => {
+        let intervalId = setInterval(() => {
+            document.querySelector('.carrousel__img').classList.add('fade-out');
+            setTimeout(() => {
+                nextImage();
+                setTimeout(() => {
+                    document.querySelector('.carrousel__img').classList.remove('fade-out');
+                }, 100);
+            }, 500);
+        }, 6000);
+
+        return () => clearInterval(intervalId);
+        }, [currentImageIndex]); 
+
     return (
-        <div className='carousel-container'>
+        <div className='carrousel__container'>
             <div 
-            className='carousel-image' 
+            className='carrousel__img'
             style={{ backgroundImage: `url(${imagesCarousel[currentImageIndex].imgUrl})` }}>
-                <h2>{imagesCarousel[currentImageIndex].title}</h2>
-                <ButtonComponent text='Ver más' to='https://www.doctorwho.tv/' className="carrousel__main-btn"/>
+                <h2 className={`${'carrousel__title'} ${lato.className}`}>{imagesCarousel[currentImageIndex].title}</h2>
+                <div className='main-btn__container'>
+                    <ButtonComponent 
+                        text='Ver ahora' 
+                        to='https://www.doctorwho.tv/' 
+                        className={`${lato.className} ${"main-btn"}`}/>
+                </div>
             </div>
-            <div className='carousel-buttons'>
+            <div className='carrousel__btns'>
                 <button onClick={prevImage}></button>
                 <button onClick={nextImage}></button>
                 <button onClick={prevImage}></button>

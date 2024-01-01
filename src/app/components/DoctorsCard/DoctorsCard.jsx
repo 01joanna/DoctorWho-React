@@ -1,5 +1,8 @@
 import DoctorsData from '../../../../public/assets/doctors.json'
 import Image from 'next/image'
+import ButtonComponent from '../GeneralButton/GeneralButton'
+import './doctorscard.css'
+import { lato, montserrat } from '../../fonts'
 
 const DoctorsCard = () => {
     return (
@@ -16,10 +19,11 @@ const DoctorsCard = () => {
                     />
 
                     <div className='doctors__card-text'>
-                        <h2>{doctor.doctor}</h2>
-                        <p>{doctor.actor}</p>
-                        <p>{doctor.screen_time}</p>
+                        <h2 className={lato.className}>{doctor.doctor}</h2>
+                        <p className={`${montserrat.className} ${'doctor-actor__p'}`}>{doctor.actor}</p>
+                        <p className={montserrat.className}>{doctor.screen_time}</p>
                     </div>
+                    <ButtonComponent to={'www.doctorwho.com/tv'} text={'Ver más'} className={`${'doctors__btn'}`} />
                 </div>
         ))}
         </ul>
