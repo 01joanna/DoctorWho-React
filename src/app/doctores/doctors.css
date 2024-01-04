@@ -3,3 +3,9 @@
     position: relative;
     left: 2rem;
 }
+
+@media only screen and (max-width: 932px) {
+    .doctors__title {
+        font-size: 2rem;
+    }
+}

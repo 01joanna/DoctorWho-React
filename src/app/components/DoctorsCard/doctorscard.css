@@ -37,3 +37,10 @@
   font-weight: 700;
   font-size: 1.3rem;
 }
+
+@media only screen and (max-width: 932px) {
+  .doctor__img {
+    width: 40rem;
+  }
+
+}

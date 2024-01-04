@@ -1,16 +1,10 @@
-// 'use client'
-// import { useState } from 'react';
+'use client'
+// import { createContext, useState, useContext } from 'react';
 import SearchIcon from '../../../../public/assets/img/icons/material-symbols-light_search.svg'
-// import { useState } from "react";
 import Image from "next/image";
 import './searchbar.css'
 
 export default function SearchBar() {
-    // const [searchItem, setSearchItem] = useState("");  
-    // const handleInputChange = (e) => {
-    //     const searchTerm = e.target.value;
-    //     setSearchItem(searchTerm);
-    // }
 
     return (
         <div className="searchbar__container">
@@ -24,13 +18,11 @@ export default function SearchBar() {
 
             <input 
             type="text"
-            placeholder="Buscar"
+            name={'search'}
+            placeholder={'Buscar'}
             className='searchbar__placeholder'
-            // value={searchItem}
-            // onChange={handleInputChange}
+            // onChange={(e) => handleChange(e.target.value)}
             />
         </div>
-
-        
     )
 }

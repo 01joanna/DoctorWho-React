@@ -13,6 +13,7 @@ export default function Contact() {
                     id="name" 
                     name="name"
                     placeholder="Nombre *"
+                    className={lato.className}
                     />
                 </div>
                 <div className='email__container'>
@@ -22,6 +23,7 @@ export default function Contact() {
                     id="email" 
                     name="email"
                     placeholder="Email *"
+                    className={lato.className}
                     />
                 </div>
                 <div className='message__container'>
@@ -31,12 +33,13 @@ export default function Contact() {
                     id="message" 
                     name="message"
                     placeholder="Mensaje *"
+                    className={lato.className}
                     />
                 </div>
             </form>
             <ButtonComponent 
-            to="https://nextjs.org/docs/pages/api-reference/components/link" 
-            text="Send" 
+            to="" 
+            text="Enviar" 
             className={`${'submit__btn'}`}/>
         </section>
     )
