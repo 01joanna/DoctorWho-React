@@ -19,20 +19,22 @@ const imagesCarousel = [{
     title: 'Allons-y!',
     imgUrl: image2,
 
-},{
-    id: 2,
-    title: 'The Star Beast',
-    imgUrl: image3,
-},{
-    id: 3,
-    title: 'New Doctor!',
-    imgUrl: image4,
+},
+// {
+//     id: 2,
+//     title: 'The Star Beast',
+//     imgUrl: image3,
+// },{
+//     id: 3,
+//     title: 'New Doctor!',
+//     imgUrl: image4,
 
-},{
-    id: 4,
-    title: 'Explore!',
-    imgUrl: image5,
-}]
+// },{
+//     id: 4,
+//     title: 'Explore!',
+//     imgUrl: image5,
+// }
+]
 
 const Carrousel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);

@@ -47,9 +47,9 @@
   
   .carrousel__btns button {
     background-color: transparent;
-    border: 3px solid white;
-    padding: 8px; 
-    margin: 0 8px;
+    border: 1.5px solid white;
+    padding: 9px; 
+    margin: 0 12px;
     cursor: pointer;
     border-radius: 50%; 
     transition: background-color 0.2s ease;
@@ -71,4 +71,26 @@
     font-weight: 700;
     padding: 0.7rem 2.5rem;
     font-size: 1.3rem;
+  }
+
+  @media only screen and (max-width: 932px) {
+    .carrousel__title {
+      text-align: justify;
+      font-size: 48px;
+      padding: 0;
+      left: 1rem;
+      top: 18rem;
+    }
+    .carrousel__btns {
+      right: 1rem;
+    }
+
+  .main-btn__container {
+    top: 23rem;
+    left: 1rem;
+  }
+
+  .carrousel__img {
+    height: 720px;
+  }
   }
