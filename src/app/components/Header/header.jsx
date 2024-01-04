@@ -4,6 +4,7 @@ import Logo from '../Logo/Logo'
 import SocialNetworks from '../SocialNetwork/SocialNetworks'
 import SearchBar from '../SearchBar/SearchBar'
 import HamburgerMenu from '../../../../public/assets/img/icons/hamburger-menu.svg'
+import Image from "react";
 
 const links = [{
     label: 'Conoce a',
@@ -23,10 +24,8 @@ export default function Header() {
     // };
 
     return (
-        <header className={`header__container`}>
-            <div className="burger-menu__navigation" 
-            // onClick={toggleMenu}
-            >
+        <header className='header__container'>
+            <div className="burger-menu__navigation" >
             <Image
                 src={HamburgerMenu}
                 alt="Menu hamburguesa en responsive"
@@ -35,12 +34,8 @@ export default function Header() {
                 className='burger-menu__img'
                 />
             </div>
-            <nav 
-            // className={menuOpen ? 'show' : ''}
-            >
-                <ul className='navigation' 
-                // onClick={toggleMenu}
-                >{links.map(({label, route}) => (
+            <nav>
+                <ul className='navigation'>{links.map(({label, route}) => (
                     <li key={route}>
                         <Link href={route}>
                             {label}
