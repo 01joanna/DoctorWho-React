@@ -6,9 +6,9 @@ import { lato, montserrat } from '../../fonts'
 
 const image1 = '/assets/img/carrusel/carrusel-2.jpg';
 const image2 = '/assets/img/carrusel/carrusel-1.webp';
-const image3 = '/assets/img/carrusel/carrusel-3.jpeg';
-const image4 = '/assets/img/carrusel/carrusel-4.jpeg';
-const image5 = '/assets/img/carrusel/carrusel-5.jpeg';
+// const image3 = '/assets/img/carrusel/carrusel-3.jpeg';
+// const image4 = '/assets/img/carrusel/carrusel-4.jpeg';
+// const image5 = '/assets/img/carrusel/carrusel-5.jpeg';
 
 const imagesCarousel = [{
     id: 0,
@@ -19,20 +19,22 @@ const imagesCarousel = [{
     title: 'Allons-y!',
     imgUrl: image2,
 
-},{
-    id: 2,
-    title: 'The Star Beast',
-    imgUrl: image3,
-},{
-    id: 3,
-    title: 'New Doctor!',
-    imgUrl: image4,
+},
+// {
+//     id: 2,
+//     title: 'The Star Beast',
+//     imgUrl: image3,
+// },{
+//     id: 3,
+//     title: 'New Doctor!',
+//     imgUrl: image4,
 
-},{
-    id: 4,
-    title: 'Explore!',
-    imgUrl: image5,
-}]
+// },{
+//     id: 4,
+//     title: 'Explore!',
+//     imgUrl: image5,
+// }
+]
 
 const Carrousel = () => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -56,7 +58,7 @@ const Carrousel = () => {
                     document.querySelector('.carrousel__img').classList.remove('fade-out');
                 }, 100);
             }, 500);
-        }, 8000);
+        }, 6000);
 
         return () => clearInterval(intervalId);
         }, [currentImageIndex]); 

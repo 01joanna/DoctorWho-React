@@ -1,8 +1,10 @@
+'use client'
 import './header.css'
 import Link from 'next/link'
 import Logo from '../Logo/Logo'
 import SocialNetworks from '../SocialNetwork/SocialNetworks'
 import SearchBar from '../SearchBar/SearchBar'
+
 
 const links = [{
     label: 'Conoce a',
@@ -16,6 +18,7 @@ const links = [{
 }]
 
 export default function Header() {
+
     return (
         <header className='header__container'>
             <nav>
@@ -30,9 +33,7 @@ export default function Header() {
                 </ul>
             </nav>
             <Logo />
-            <SearchBar 
-            // onChange={(e) => console.log(e.target.value)}
-            />
+            <SearchBar/>
             <SocialNetworks />
         </header>
     )

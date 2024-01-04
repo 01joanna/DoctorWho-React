@@ -17,5 +17,15 @@ h1 {
     font-size: 54px;
     text-align: center;
     font-weight: 700;
-    /* line-height: 76px; */
+}
+
+@media screen and (max-width: 930px) {
+    .contacts__container {
+        flex-direction: column;
+        width: 100%;
+    }
+    h1 {
+        width: 100%;
+        font-size: 48px;
+    }
 }
