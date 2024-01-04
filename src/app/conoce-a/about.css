@@ -41,3 +41,42 @@ body {
     position: relative;
     padding-bottom: 2.5rem;
 }
+
+@media only screen and (max-width: 932px) {
+    body {
+        padding: 0;
+    }
+    .about__text-container {
+        width: 100%;
+    }
+    .about__container {
+        flex-direction: column;
+        width: 100%;
+    }
+    .about__title {
+        width: 100%;
+        font-size: 3rem;
+    }
+
+    .about__text {
+        width: 80%;
+        text-align: center;
+        line-height: 2rem;
+        font-weight: 300;
+    }
+
+    .about__image {
+        width: 80%;
+        height: auto;
+
+    }
+    .about__image-container {
+        display: flex;
+        justify-content: center;
+    }
+
+    .vermas__btn {
+        padding: 1rem 5rem;
+    }
+
+}

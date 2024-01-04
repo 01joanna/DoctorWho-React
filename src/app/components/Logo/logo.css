@@ -9,3 +9,12 @@
     left: 35rem;
     z-index: 1;
 }
+
+@media only screen and (max-width: 932px) {
+    .logo__img img{
+        left: 1rem;
+        width: 90px;
+        height: 90px;
+        top: 1.2rem;
+    }
+}
