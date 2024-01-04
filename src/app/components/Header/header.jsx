@@ -17,14 +17,16 @@ const links = [{
 }]
 
 export default function Header() {
-    const [menuOpen, setMenuOpen] = useState(false);
-    const toggleMenu = () => {
-        setMenuOpen(!menuOpen);
-    };
+    // const [menuOpen, setMenuOpen] = useState(false);
+    // const toggleMenu = () => {
+    //     setMenuOpen(!menuOpen);
+    // };
 
     return (
-        <header className={`header__container ${menuOpen ? 'menu-open' : ''}`}>
-            <div className="burger-menu__navigation" onClick={toggleMenu}>
+        <header className={`header__container`}>
+            <div className="burger-menu__navigation" 
+            // onClick={toggleMenu}
+            >
             <Image
                 src={HamburgerMenu}
                 alt="Menu hamburguesa en responsive"
@@ -33,8 +35,12 @@ export default function Header() {
                 className='burger-menu__img'
                 />
             </div>
-            <nav className={menuOpen ? 'show' : ''}>
-                <ul className='navigation' onClick={toggleMenu}>{links.map(({label, route}) => (
+            <nav 
+            // className={menuOpen ? 'show' : ''}
+            >
+                <ul className='navigation' 
+                // onClick={toggleMenu}
+                >{links.map(({label, route}) => (
                     <li key={route}>
                         <Link href={route}>
                             {label}
