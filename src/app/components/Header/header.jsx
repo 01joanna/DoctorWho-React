@@ -1,3 +1,4 @@
+'use client'
 import './header.css'
 import Link from 'next/link'
 import Logo from '../Logo/Logo'
