@@ -13,3 +13,19 @@
     gap: 2.5rem;
     font-size: 1.2rem;
 }
+
+.burger-menu__navigation {
+    cursor: pointer;
+    display: none;
+}
+
+.burger-menu__img {
+    background-color: #FFF;
+}
+
+@media only screen and (max-width: 932px) {
+    .burger-menu__navigation {
+        display: block;
+    }
+
+}
