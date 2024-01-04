@@ -22,10 +22,10 @@
 .burger-menu__img {
     background-color: #FFF;
 }
-
+/* 
 @media only screen and (max-width: 932px) {
     .burger-menu__navigation {
         display: block;
     }
 
-}
+} */

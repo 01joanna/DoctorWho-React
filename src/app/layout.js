@@ -1,13 +1,12 @@
+'use client'
 import { lato, montserrat } from './fonts'
 import './globals.css'
 import Header from './components/Header/Header'
 import Footer from './components/Footer/Footer'
 
 
-export default function RootLayoutt({ children }) {
+export default function RootLayout({ children }) {
   return (
-    // <DoctorsContext.Provider
-    //   value={{ doctorsResults, setDoctorsResults }}>
       <html lang='en'>
         <head>
           <title>Doctor Who Official Webpage</title>
@@ -19,7 +18,6 @@ export default function RootLayoutt({ children }) {
           <Footer />
         </body>
       </html>
-    // </DoctorsContext.Provider>
   )
   
 }
