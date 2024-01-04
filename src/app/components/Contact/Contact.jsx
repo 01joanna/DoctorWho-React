@@ -39,7 +39,7 @@ export default function Contact() {
             </form>
             <ButtonComponent 
             to="" 
-            text="Send" 
+            text="Enviar" 
             className={`${'submit__btn'}`}/>
         </section>
     )
