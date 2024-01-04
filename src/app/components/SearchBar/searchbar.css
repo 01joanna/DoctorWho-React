@@ -25,9 +25,9 @@ input:focus {
 .searchbar__icon {
     margin-right: 2rem;
 }
-/* 
+
 @media only screen and (max-width: 932px) { 
     .searchbar__container {
         display: none;
     }
-} */
+}

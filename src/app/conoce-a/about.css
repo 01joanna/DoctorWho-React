@@ -41,3 +41,9 @@ body {
     position: relative;
     padding-bottom: 2.5rem;
 }
+
+@media only screen and (max-width: 932px) {
+    body {
+        padding: 0;
+    }
+}
