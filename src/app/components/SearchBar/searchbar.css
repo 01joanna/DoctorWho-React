@@ -2,7 +2,6 @@
     background-color: #040521;
     all: unset; 
     border: none;
-    border-bottom: 1px solid #ccc;
     outline: none;
 }
 
@@ -11,7 +10,9 @@
 }
 
 input:focus {
+    border-bottom: 1px solid #ccc;
     border-color: white;
+    transition: ease 2s;
 }
 
 .searchbar__container {
