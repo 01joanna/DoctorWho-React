@@ -6,9 +6,9 @@ import { lato, montserrat } from '../../fonts'
 
 const image1 = '/assets/img/carrusel/carrusel-2.jpg';
 const image2 = '/assets/img/carrusel/carrusel-1.webp';
-const image3 = '/assets/img/carrusel/carrusel-3.jpeg';
-const image4 = '/assets/img/carrusel/carrusel-4.jpeg';
-const image5 = '/assets/img/carrusel/carrusel-5.jpeg';
+// const image3 = '/assets/img/carrusel/carrusel-3.jpeg';
+// const image4 = '/assets/img/carrusel/carrusel-4.jpeg';
+// const image5 = '/assets/img/carrusel/carrusel-5.jpeg';
 
 const imagesCarousel = [{
     id: 0,
