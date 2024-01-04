@@ -96,7 +96,7 @@
         "doctor": "Duodécimo Doctor",
         "actor": "Peter Capaldi",
         "screen_time": "2013-2017",
-        "image": "/img/doctors/Twelfth_Doctor_Peter_Capaldi.jpg"
+        "image": "/assets/img/doctors/Twelfth_Doctor_Peter_Capaldi copy.jpg"
       },
       {
         "id":14,
@@ -108,9 +108,9 @@
       {
         "id":15,
         "doctor": "Doctor Fugitivo",
-        "actor": "Jodie Whittaker",
+        "actor": "Jo Martin",
         "screen_time": "2020",
-        "image": "/assets/img/doctors/Fugitive_Doctor_Jo_Martin.jpg"
+        "image": "/assets/img/doctors/Fugitive_Doctor_Jo_Martin copy.png"
       },
       {
         "id":16,
