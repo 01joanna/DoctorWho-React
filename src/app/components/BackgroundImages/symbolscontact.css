@@ -14,11 +14,17 @@
 .resistencia__symbol-contact {
     position: absolute;
     bottom: 50%;
-    right: 51%;
+    right: 55%;
 }
 
 .vencer__symbol-contact {
     position: absolute;
     bottom: 45%;
     left: 3%;
+}
+
+@media only screen and (max-width: 932px) {
+    .resistencia__symbol-contact {
+        left: 20%;
+    }
 }

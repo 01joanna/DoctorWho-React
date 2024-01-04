@@ -2,13 +2,13 @@
 
 .doctors__cards-container {
   position: relative;
-  margin: 2rem;
   display: inline-flex;
   align-content: stretch;
   flex-wrap: wrap;
   flex-direction: column;
   padding: 1rem 1rem;
   gap: 1rem;
+  margin-bottom: 1.5rem;
 }
 
 .doctor__image {
@@ -19,6 +19,7 @@
   margin-bottom: 1rem;
   z-index: 2;
   font-size: 1.5rem;
+  height: 12rem;
 }
 
 .doctors__card-text h2 {
@@ -44,5 +45,8 @@
     height: auto;
     width: 20rem;
     z-index: 1;
+  }
+  .doctors__cards-container {
+    margin: 2rem;
   }
 }
