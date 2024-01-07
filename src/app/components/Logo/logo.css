@@ -1,11 +1,19 @@
 .logo__img{
     padding: 0;
-    /* margin: 2rem; */
 }
 
 .logo__img img{
     position: absolute;
-    top: 1.4rem;
-    left: 35rem;
+    top: 0.3rem;
+    left: 32rem;
     z-index: 1;
+}
+
+@media only screen and (max-width: 932px) {
+    .logo__img img{
+        left: 1rem;
+        width: 90px;
+        height: 90px;
+        top: 1.2rem;
+    }
 }

@@ -1,8 +1,6 @@
 import './header.css'
 import Link from 'next/link'
-import Logo from '../Logo/Logo'
-import SocialNetworks from '../SocialNetwork/SocialNetworks'
-import SearchBar from '../SearchBar/SearchBar'
+
 
 const links = [{
     label: 'Conoce a',
@@ -15,9 +13,9 @@ const links = [{
     route: '/contacto'
 }]
 
-export default function Header() {
+export default function NavBar() {
     return (
-        <header className='header__container'>
+        <div className="navbar">
             <nav>
                 <ul className='navigation'>{links.map(({label, route}) => (
                     <li key={route}>
@@ -29,11 +27,6 @@ export default function Header() {
                 }
                 </ul>
             </nav>
-            <Logo />
-            <SearchBar 
-            // onChange={(e) => console.log(e.target.value)}
-            />
-            <SocialNetworks />
-        </header>
+        </div>
     )
 }

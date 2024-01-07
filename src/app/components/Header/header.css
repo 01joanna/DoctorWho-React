@@ -3,18 +3,28 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    height: 10rem;
-    padding: 0 4.4rem;
+    height: 7rem;
+    padding: 0 3rem;
 }
 
 .navigation {
     display: flex;
     list-style: none;
-    gap: 32px;
+    gap: 2.5rem;
     font-size: 1.2rem;
 }
 
-.navigation a:hover{
-    color: #f0f0f0f0;
-    text-decoration: underline;
+.burger-menu__navigation {
+    cursor: pointer;
+    display: none;
 }
+
+.burger-menu__img {
+    background-color: #FFF;
+}
+
+@media only screen and (max-width: 932px) {
+    .navigation {
+        display: none;
+    }
+} 

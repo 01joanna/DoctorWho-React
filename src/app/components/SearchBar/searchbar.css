@@ -2,7 +2,6 @@
     background-color: #040521;
     all: unset; 
     border: none;
-    border-bottom: 1px solid #ccc;
     outline: none;
 }
 
@@ -11,11 +10,13 @@
 }
 
 input:focus {
+    border-bottom: 1px solid #ccc;
     border-color: white;
+    transition: ease 2s;
 }
 
 .searchbar__container {
-    width: 5rem;
+    width: 1.5rem;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -23,4 +24,10 @@ input:focus {
 
 .searchbar__icon {
     margin-right: 2rem;
+}
+
+@media only screen and (max-width: 932px) { 
+    .searchbar__container {
+        display: none;
+    }
 }

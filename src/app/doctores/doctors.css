@@ -1,25 +1,10 @@
-.doctors__cards-container {
-  position: relative;
-  margin: 2rem;
-  display: inline-flex;
-  align-content: stretch;
-  flex-wrap: wrap;
-  flex-direction: column;
-  padding: 1rem 1rem;
+.doctors__title {
+    font-size: 3.5rem;
+    position: relative;
 }
 
-.doctor__image {
-  height: 21rem;
-  width: 16rem;
-  z-index: 1; 
-}
-
-.doctors__card-text {
-  z-index: 2;
-}
-
-
-.doctors__card-text h2 {
-  font-size: 1.8rem;
-  margin-bottom: 1rem;
+@media only screen and (max-width: 932px) {
+    .doctors__title {
+        font-size: 2rem;
+    }
 }

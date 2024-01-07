@@ -1,0 +1,52 @@
+
+
+.doctors__cards-container {
+  position: relative;
+  display: inline-flex;
+  align-content: stretch;
+  flex-wrap: wrap;
+  flex-direction: column;
+  padding: 1rem 1rem;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.doctor__image {
+  z-index: 1;
+}
+
+.doctors__card-text {
+  margin-bottom: 1rem;
+  z-index: 2;
+  font-size: 1.5rem;
+  height: 12rem;
+}
+
+.doctors__card-text h2 {
+  font-size: 1.8rem;
+  margin-bottom: 2rem;
+  font-weight: 700;
+  width: 15rem;
+}
+
+.doctor-actor__p {
+  font-style: italic;
+  margin-bottom: 1.3rem;
+}
+
+.doctors__btn{
+  padding: 0.5rem 3rem;
+  font-weight: 700;
+  font-size: 1.3rem;
+}
+
+@media only screen and (max-width: 932px) {
+.doctor__image {
+    height: auto;
+    width: 20rem;
+    z-index: 1;
+  }
+  .doctors__cards-container {
+    margin: 2rem;
+  }
+}

@@ -5,7 +5,7 @@ const ButtonComponent = ({ to, text, className = '', style = {} }) => {
 
     return (
         <div>
-            <a href={to} target="_blank" style={style} className={`${'btn__component'} ${className} ${montserrat.className}`}>
+            <a href={to} target="_blank" style={style} className={`${'btn__component'} ${className}`}>
                 {text}
             </a>
         </div>
