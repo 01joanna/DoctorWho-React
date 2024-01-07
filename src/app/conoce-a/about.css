@@ -21,6 +21,7 @@ body {
     font-size: 3.5rem;
     width: 47rem;
     text-align: center;
+    padding-top: 3rem;
 }
 
 .about__text {
@@ -37,7 +38,7 @@ body {
 }
 .about__image {
     width: 370px;
-    height: 570px;
+    height: 590px;
     position: relative;
     padding-bottom: 2.5rem;
 }

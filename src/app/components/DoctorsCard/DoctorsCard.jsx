@@ -13,8 +13,8 @@ const DoctorsCard = () => {
                     <Image 
                     src={`${doctor.image}`}
                     alt={`'Imagen del ${doctor.doctor}'`}
-                    width={314}
-                    height={459}
+                    width={280}
+                    height={375}
                     className='doctor__image'
                     />
 

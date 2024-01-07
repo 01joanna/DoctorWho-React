@@ -8,7 +8,7 @@ export default function ContactPage() {
     return (
         <main className='contacts__container'>
             <section>
-                <h1 className={lato.className}>Envia tu mensaje al Doctor</h1>
+                <h1 className={`${lato.className} ${'contacts__title'}`}>Envia tu mensaje al Doctor</h1>
                 <SymbolsContact />
             </section>
             <aside>
