@@ -4,34 +4,25 @@ import Link from 'next/link'
 import Logo from '../Logo/Logo'
 import SocialNetworks from '../SocialNetwork/SocialNetworks'
 import SearchBar from '../SearchBar/SearchBar'
+import NavBar from './NavBar'
+import SideBar from './Sidebar'
+// import { useState } from 'react'
 
-
-const links = [{
-    label: 'Conoce a',
-    route: '/conoce-a'
-}, {
-    label: 'Doctores',
-    route: '/doctores'
-}, {
-    label: 'Contacto',
-    route: '/contacto'
-}]
+    // const [isOpen, setIsOpen] = useState(false);
+    // const toggle = () => {
+    //     setIsOpen(!isOpen)
+    // }
 
 export default function Header() {
 
     return (
         <header className='header__container'>
-            <nav>
-                <ul className='navigation'>{links.map(({label, route}) => (
-                    <li key={route}>
-                        <Link href={route}>
-                            {label}
-                        </Link>
-                    </li>
-                ))
-                }
-                </ul>
-            </nav>
+            <NavBar 
+            // toggle={toggle} 
+            />
+            <SideBar 
+            // isOpen={isOpen} toggle={toggle} 
+            />
             <Logo />
             <SearchBar/>
             <SocialNetworks />
